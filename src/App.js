@@ -1,11 +1,16 @@
 import NavBar from './navBar/nav';
+import Header from './header/head';
+import CustomCursor from './CustomCursor';
 import './App.css';
 function App() {
   return (
-    <div className="App">
-     <NavBar/>
-      
-    </div>
+    <>
+      <CustomCursor/>
+      <div className="App">
+      <NavBar/>
+      <Header />
+      </div>
+    </>
   );
 }
 
