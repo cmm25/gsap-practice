@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <CustomCursor/>
-      <div className="App">
+      <div className="main-container" id='main-container'>
       <NavBar/>
       <Header />
       </div>
