@@ -6,9 +6,11 @@ import CustomCursor from './CustomCursor';
 import Feature from './featured/featured';
 import Gallery from './Gallery/gallery';
 import Footer from './Footer/footer';
+import useLocoScroll from './hooks/useLocalScroll';
 import './App.css';
 function App() {
   const[preloader, setPreloader]=useState(true)
+  useLocoScroll(!preloader)
   const[timer, setTimer]=useState(3)
   const id=useRef(null);
   const clear = () => {
