@@ -2,8 +2,14 @@
     text-align: center;
     padding-bottom: 200px;
 }
-.location{
+.footer .location{
     font-size: 18vw;
     text-transform: uppercase;
     font-family: 'Boconi Woda', sans-serif;
+    opacity: 0;
+    &.is-reveal {
+        opacity: 1;
+      }
 }
+
+  
