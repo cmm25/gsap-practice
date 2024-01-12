@@ -4,7 +4,7 @@ import gsap from "gsap";
 import './head.css';
 export default function Header(){
     return(
-        <section className="header-container">
+        <section className="header-container" data-scroll-section>
             <ul className="header-menu">
                 <li>Intro</li>
                 <li>About</li>

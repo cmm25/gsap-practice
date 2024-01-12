@@ -2,7 +2,7 @@ import  './nav.css'
 
 export default function NavBar(){
     return(
-        <div className= "navbar">
+        <div className= "navbar" data-scroll-section>
             <div>
                 menu
             </div>

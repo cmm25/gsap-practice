@@ -40,7 +40,7 @@ function GalleryItem({
     index,
 }){
     return(
-    <div className="gallery-item-wrapper">
+    <div className="gallery-item-wrapper" data-scroll-section>
         <div></div>
         <div className={"gallery-item"}>
             <div className="gallery-item-info">
