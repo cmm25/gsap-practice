@@ -5,7 +5,7 @@
 .footer .location{
     font-size: 18vw;
     text-transform: uppercase;
-    font-family: 'Boconi Woda', sans-serif;
+    font-family: 'Boconi Moda', sans-serif;
     opacity: 0;
     &.is-reveal {
         opacity: 1;

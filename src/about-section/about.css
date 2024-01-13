@@ -1,10 +1,10 @@
 .about-section p {
       font-size: 70px;
       line-height: 1.12;
-      /*opacity: 0;
+      opacity: 0;
       &.is-reveal {
         opacity: 1;
-      }*/
+      }
 }  
 .about-section p > div {
         opacity: 0;
