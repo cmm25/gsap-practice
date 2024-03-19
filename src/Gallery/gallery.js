@@ -129,4 +129,4 @@ export default function Gallery({ src, index, columnOffset }) {
       </div>
     </section>
   );
-} //gallery still faulty.
+} //gallery still faulty...
