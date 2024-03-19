@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react"
 import SectionHeader from "../SectionHeader";
 import "./footer.css";
-import useOnScreen from "../hooks/useOnScreen";
-import SplitText from "../utils/Split3.min";
+import useOnScreen from "../../hooks/useOnScreen";
+import SplitText from "../../utils/Split3.min";
 import cn from 'classnames';
 import gsap from "gsap";
 export default function Footer(){

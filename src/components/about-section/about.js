@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import "./about.css";
 import SectionHeader from "../SectionHeader";
-import useOnScreen from "../hooks/useOnScreen";
-import SplitText from "../utils/Split3.min";
+import useOnScreen from "../../hooks/useOnScreen";
+import SplitText from "../../utils/Split3.min";
 import cn from 'classnames';
 
 export default function About(){

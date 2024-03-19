@@ -1,5 +1,5 @@
 import "./featured.css";
-import photos from "../data";
+import photos from "../../data";
 export default function Feature(){
     const[firstUrl, secondUrl]= photos;
     return(

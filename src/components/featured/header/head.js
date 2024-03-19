@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import SplitText from "../utils/Split3.min";
+import SplitText from "../../../utils/Split3.min";
 import './head.css';
 export default function Header(){
     useEffect(() => {
