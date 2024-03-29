@@ -1,11 +1,12 @@
 import { useState,useRef,useEffect } from 'react';
-import NavBar from './navBar/nav';
-import Header from './header/head';
-import About from './about-section/about';
-import CustomCursor from './CustomCursor';
-import Feature from './featured/featured';
-import Gallery from './Gallery/gallery';
-import Footer from './Footer/footer';
+import NavBar from './components/navBar/nav'
+
+import Header from './components/header/head';
+import About from './components/about-section/about';
+import CustomCursor from './components/CustomCursor';
+import Feature from './components/featured/featured';
+import Gallery from './components/Gallery/gallery';
+import Footer from './components/Footer/footer';
 import useLocoScroll from './hooks/useLocalScroll';
 import './App.css';
 function App() {

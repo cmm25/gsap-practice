@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import useOnScreen from "../Footer/hooks/useOnScreen";
+import useOnScreen from "../../hooks/useOnScreen";
 import cn from 'classnames';
 import "./style.css";
-
+//new
 const images = [
   {
     src:
@@ -129,4 +129,4 @@ export default function Gallery({ src, index, columnOffset }) {
       </div>
     </section>
   );
-} //gallery still faulty...
+} //gallery still faulty.
