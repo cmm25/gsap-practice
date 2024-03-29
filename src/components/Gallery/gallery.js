@@ -4,7 +4,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import useOnScreen from "../../hooks/useOnScreen";
 import cn from 'classnames';
 import "./style.css";
-
+//new
 const images = [
   {
     src:
