@@ -1,4 +1,7 @@
 {
+  //test pages
+
+  "homepage": "https://cmm25.github.io/gsap-practice",
   "name": "test",
   "version": "0.1.0",
   "private": true,
